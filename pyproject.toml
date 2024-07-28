@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "recommendation-training"
+version = "0.1.0"
+description = ""
+authors = ["Masato Naka <masatonaka1989@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+tensorflow = "2.15.0"
+tensorflow-recommenders = "^0.7.3"
+tensorflow-macos = "2.15.0"
+tensorflow-datasets = "^4.9.6"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
